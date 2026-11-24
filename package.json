@@ -1,0 +1,23 @@
+{
+  "name": "mythic-pick-rarity-spec",
+  "version": "1.0.0",
+  "description": "Open specification and zero-dependency reference implementation of the smoothed live crowd-rarity scoring model and spoiler-free share grid used by Mythic Pick.",
+  "type": "module",
+  "main": "./src/rarity-scoring.mjs",
+  "exports": {
+    ".": "./src/rarity-scoring.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "mythic-pick",
+    "daily-game",
+    "trivia",
+    "rarity-scoring",
+    "video-game-rarity-trivia",
+    "share-grid"
+  ],
+  "homepage": "https://mythicpick.com",
+  "license": "MIT"
+}
